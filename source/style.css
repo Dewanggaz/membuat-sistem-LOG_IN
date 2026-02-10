@@ -25,10 +25,17 @@ body {
 
 .Login h2 {
   margin-bottom: 20px;
+  color: black;
+  
+}
+
+.Login h2:hover{
+  transition: 1s;
   background: linear-gradient(150deg, #d900ff, #ff0077);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .Login input {
