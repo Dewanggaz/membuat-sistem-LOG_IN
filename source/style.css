@@ -18,12 +18,17 @@ body {
   padding: 30px;
   width: 300px;
   border-radius: 10px;
-  box-shadow: 0 10px 25px rgb(64, 0, 255);
+  /* box-shadow: 0 10px 30px rgb(255, 0, 81); */
+  box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
   text-align: center;
 }
 
 .Login h2 {
   margin-bottom: 20px;
+  background: linear-gradient(150deg, #d900ff, #ff0077);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 .Login input {
@@ -45,7 +50,7 @@ body {
 }
 
 .Login button:hover {
-  background: #5a67d8;
+  background: #ff00e6;
   transition: 0.2s;
   box-shadow: 0 10px 25px rgb(37, 36, 36);
 }
