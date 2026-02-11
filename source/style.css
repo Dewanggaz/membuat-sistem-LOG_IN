@@ -4,6 +4,18 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+.logo{
+  justify-content: center;
+}
+img{
+  padding-right: 50px;
+}
+
+.logo h2{
+  
+  position: relative;
+  left: 5%;
+}
 
 body {
   background: linear-gradient(5deg, #ea04ff, #ff00d9);
@@ -14,10 +26,11 @@ body {
 }
 
 .Login {
-  background: rgb(245, 245, 245);
+  background: rgba(245, 245, 245, 0.543);
   padding: 30px;
   width: 300px;
   border-radius: 10px;
+  backdrop-filter: blur(8px);
   /* box-shadow: 0 10px 30px rgb(255, 0, 81); */
   box-shadow: rgb(0, 0, 0) 1.95px 1.95px 2.6px;
   text-align: center;
@@ -62,7 +75,3 @@ body {
   box-shadow: 0 10px 25px rgb(37, 36, 36);
 }
 
-#message {
-  margin-top: 10px;
-  font-size: 14px;
-}
